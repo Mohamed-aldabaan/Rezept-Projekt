@@ -37,4 +37,4 @@ Zusätzliche Aufgaben
 
 * Front-End-Integration (Optional): Erstelle eine einfache Benutzeroberfläche mit React, um die API-Endpunkte visuell zu testen.
 
---
+
