@@ -36,3 +36,5 @@ Zusätzliche Aufgaben
 * Validierung und Fehlerbehandlung: Füge Validierungen für die Eingabedaten hinzu und implementiere eine ordnungsgemäße Fehlerbehandlung.
 
 * Front-End-Integration (Optional): Erstelle eine einfache Benutzeroberfläche mit React, um die API-Endpunkte visuell zu testen.
+
+--
