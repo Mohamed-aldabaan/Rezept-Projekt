@@ -60,7 +60,10 @@ PUT /api/rezepte/:id
 
 - Frontend einrichten:
   1. Erstelle eine .env-Datei im Frontend-Verzeichnis und füge die Backend-URL hinzu:
+    ```js
+        VITE_BACKEND_URL= deine url
 
+    ```
   2.  Wechsle in das Frontend-Verzeichnis und installiere die Abhängigkeiten:
     ```js
         npm install
