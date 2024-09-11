@@ -40,4 +40,22 @@ PUT /api/rezepte/:id
 ##### Voraussetzungen:
  - Node.js und npm
  - MongoDB
-##### Schritte
+##### Schritte:
+- Backend einrichten:
+1.  Erstelle eine .env-Datei im Hauptverzeichnis und füge deine MongoDB-URI hinzu:
+    ```js
+        MONGODB_URI=deine_mongodb_uri
+    ```
+2. Installiere die Abhängigkeiten:
+    ```js
+        npm install
+    ```
+3. Navigiere zu richtigen datei; hier zun src.
+4. Starte den Server:
+    ```js
+        node server.js
+        // oder 
+        nodemon server.js
+    ```
+
+- Frontend einrichten:
