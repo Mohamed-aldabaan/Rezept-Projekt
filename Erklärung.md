@@ -59,8 +59,13 @@ PUT /api/rezepte/:id
     ```
 
 - Frontend einrichten:
-  1.  Wechsle in das Frontend-Verzeichnis und installiere die Abhängigkeiten:
+  1. Erstelle eine .env-Datei im Frontend-Verzeichnis und füge die Backend-URL hinzu:
+
+  2.  Wechsle in das Frontend-Verzeichnis und installiere die Abhängigkeiten:
     ```js
         npm install
     ```
-  2. 
+  3. Starte die Entwicklungsumgebung:
+    ```js
+        npm run dev
+    ```
