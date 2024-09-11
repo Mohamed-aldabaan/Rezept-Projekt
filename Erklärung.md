@@ -74,3 +74,4 @@ PUT /api/rezepte/:id
     ```
 
 ## noch zu machen:
+### prüfen ob Administratoren oder Normale Benutzer
