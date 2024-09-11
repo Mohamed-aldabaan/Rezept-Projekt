@@ -23,3 +23,17 @@ Dies ist eine Webanwendung zum Verwalten von Rezepten, die mit einem React-Front
 - Die Anwendung verwendet Mongoose, um mit der MongoDB zu interagieren.
 - dotenv wird verwendet, um die Umgebungsvariablen zu laden (z.B. MongoDB-Verbindungs-URI).
 - CORS-Middleware wird verwendet, um den Zugriff des Frontends auf das Backend zu ermöglichen.
+
+#### API-Routen
+Die folgenden Routen werden im RezeptRouter definiert und von den entsprechenden Controller-Funktionen verarbeitet:
+- GET /api/rezepte: Ruft alle Rezepte ab.
+- GET /api/:id
+: Ruft ein bestimmtes Rezept anhand der ID ab.
+- POST /api/: Erstellt ein neues Rezept.
+PUT /api/rezepte/:id
+: Aktualisiert ein bestehendes Rezept basierend auf der ID.
+- DELETE /api/:id
+: Löscht ein Rezept basierend auf der ID.
+
+#### Installation und Ausführung:
+
