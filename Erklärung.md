@@ -9,4 +9,9 @@ Dies ist eine Webanwendung zum Verwalten von Rezepten, die mit einem React-Front
 ### Projektstruktur:
 #### Frontend (React)
 - React-Router wird verwendet, um durch die verschiedenen Seiten der Anwendung zu navigieren.
-- 
+- Die Anwendung besteht aus mehreren Seitenkomponenten:
+  - Home: Zeigt die Hauptseite an, auf der alle Rezepte aufgelistet sind.
+  - RezeptDetails: Zeigt die Details eines ausgewählten Rezepts an.
+  - AddRezept: Ermöglicht das Hinzufügen eines neuen Rezepts.
+  - UpdateRezept: Ermöglicht das Bearbeiten eines vorhandenen Rezepts.
+  - Layout: Stellt das Layout der Anwendung bereit und umschließt die Seiten.
