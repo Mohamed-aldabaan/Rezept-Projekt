@@ -15,3 +15,8 @@ Dies ist eine Webanwendung zum Verwalten von Rezepten, die mit einem React-Front
   - AddRezept: Ermöglicht das Hinzufügen eines neuen Rezepts.
   - UpdateRezept: Ermöglicht das Bearbeiten eines vorhandenen Rezepts.
   - Layout: Stellt das Layout der Anwendung bereit und umschließt die Seiten.
+
+---
+
+#### Backend (Express)
+- Express wird verwendet, um eine API bereitzustellen, die mit der MongoDB-Datenbank kommuniziert.
