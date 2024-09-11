@@ -21,4 +21,5 @@ Dies ist eine Webanwendung zum Verwalten von Rezepten, die mit einem React-Front
 #### Backend (Express)
 - Express wird verwendet, um eine API bereitzustellen, die mit der MongoDB-Datenbank kommuniziert.
 - Die Anwendung verwendet Mongoose, um mit der MongoDB zu interagieren.
+- dotenv wird verwendet, um die Umgebungsvariablen zu laden (z.B. MongoDB-Verbindungs-URI).
 - 
