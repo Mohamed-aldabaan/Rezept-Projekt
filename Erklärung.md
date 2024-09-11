@@ -37,3 +37,7 @@ PUT /api/rezepte/:id
 
 #### Installation und Ausführung:
 
+##### Voraussetzungen:
+ - Node.js und npm
+ - MongoDB
+##### Schritte
