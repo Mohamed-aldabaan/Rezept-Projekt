@@ -79,8 +79,7 @@ const AddRezept = () => {
         </div>
         <div className="">
           <label>Zutaten:</label>
-          {zutaten.map((zutat, index) => (
-            <>
+          {zutaten.map((zutat, index) => (           
               <div
                 key={index}
                 style={{
@@ -105,7 +104,7 @@ const AddRezept = () => {
                   -
                 </button>
               </div>
-            </>
+            
           ))}
           <button
             type="button"
