@@ -10,6 +10,7 @@ const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedId, setSelectedId] = useState(null);
 
+
   useEffect(() => {
     (async function () {
       try {
@@ -41,12 +42,13 @@ const Home = () => {
     setRezepte(rezepte.filter((rezept) => rezept._id !== selectedId));
     setIsModalOpen(false);
   };
+
+ 
   return (
     <>
-    <div></div>
       <div className="big-container">
         <div className="container">
-          {rezepte &&
+          {rezepte && 
             rezepte.map((rezept) => (
               <div className="item" key={rezept._id}>
                 <div className="item-img">Foto</div>

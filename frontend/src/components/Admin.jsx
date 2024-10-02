@@ -1,13 +1,14 @@
-import React from 'react'
+// import React from 'react'
 
-const Admin = () => {
+// eslint-disable-next-line react/prop-types
+const Admin = ({admin, gast}) => {
   return (
     <div className="confirmmodal">
       <div className="box">
-        <p style={{'padding': '10px'}}>Möchten Sie dieses Rezept wirklich löschen?</p>
+        <p style={{'padding': '10px'}}>Möchten Sie als Admin oder als Gast weiter?</p>
         <div>
-          <button onClick={confirm}>Ja</button>
-          <button onClick={cancel}>Nein</button>
+          <button onClick={admin}>Admin</button>
+          <button onClick={gast}>Gast</button>
         </div>
       </div>
     </div>
