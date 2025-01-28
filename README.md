@@ -31,6 +31,12 @@ Verwende Express-Router, um die Routen zu organisieren und zu verwalten.
 Verwende Mongoose-Middleware, um Fehler beim Zugriff auf die Datenbank zu handhaben.
 Teste die API-Routen mit Postman oder einem anderen API-Client.
 
+4. Starten Backend:
+ - in src Ordner:
+```
+node server.js
+```
+
 
 Zusätzliche Aufgaben
 * Validierung und Fehlerbehandlung: Füge Validierungen für die Eingabedaten hinzu und implementiere eine ordnungsgemäße Fehlerbehandlung.
